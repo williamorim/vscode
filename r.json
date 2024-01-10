@@ -1,0 +1,19 @@
+{
+	"Shiny app": {
+    "prefix": ["shinyapp"],
+    "body": [
+			"library(shiny)",
+			"",
+			"ui <- fluidPage(",
+			"  titlePanel(\"$1\")",
+			")",
+			"",
+			"server <- function(input, output) {",
+			"  $2",
+			"}",
+			"",
+			"shinyApp(ui = ui, server = server, options = list(launch.browser = FALSE, port = 4242))"
+		],
+    "description": "A minimal shiny app"
+  }
+}

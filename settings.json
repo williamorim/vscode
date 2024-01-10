@@ -1,0 +1,27 @@
+{
+  "workbench.colorTheme": "Dracula",
+  "[python]": {
+      "editor.formatOnType": true
+  },
+  "r.bracketedPaste": true,
+  "r.rterm.mac": "/Library/Frameworks/Python.framework/Versions/3.11/bin/radian",
+  "github.copilot.enable": {
+      "quarto": false,
+      "*": true
+  },
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDelete": false,
+  "editor.rulers": [
+      80
+  ],
+  "editor.tabCompletion": "on",
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.quickSuggestionsDelay": 100,
+  "git.confirmSync": false,
+  "r.lsp.diagnostics": false,
+  "r.plot.useHttpgd": true,
+  "extensions.ignoreRecommendations": true,
+  "window.zoomLevel": 1,
+}
